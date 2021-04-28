@@ -1,0 +1,69 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLPackage</id><coordinates><x>0</x><y>17</y><w>2460</w><h>360</h></coordinates><panel_attributes>QuitAction
+--
+bg=white</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>10</x><y>387</y><w>2470</w><h>660</h></coordinates><panel_attributes>Game
+--
+bg=white
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>737</y><w>180</w><h>30</h></coordinates><panel_attributes>ShotGunFiringNorthAction
+bg=cyan</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>210</x><y>737</y><w>180</w><h>30</h></coordinates><panel_attributes>ShotGunFiringSouthAction
+bg=cyan</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>410</x><y>737</y><w>180</w><h>30</h></coordinates><panel_attributes>ShotGunFiringEastAction
+bg=cyan</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>610</x><y>737</y><w>180</w><h>30</h></coordinates><panel_attributes>ShotGunFiringWestAction
+bg=cyan</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>627</y><w>180</w><h>30</h></coordinates><panel_attributes>ShotGunAction
+bg=cyan</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>647</y><w>260</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;.
+</panel_attributes><additional_attributes>240;10;240;40;10;40;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>647</y><w>80</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;.
+</panel_attributes><additional_attributes>60;10;60;50;10;50;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>647</y><w>70</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;.
+</panel_attributes><additional_attributes>10;10;10;50;50;50;50;90</additional_attributes></element><element><id>Relation</id><coordinates><x>470</x><y>647</y><w>250</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;.
+</panel_attributes><additional_attributes>10;10;10;40;230;40;230;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>350</x><y>97</y><w>100</w><h>30</h></coordinates><panel_attributes>Item
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>390</x><y>117</y><w>30</w><h>380</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;360</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1150</x><y>657</y><w>100</w><h>30</h></coordinates><panel_attributes>SniperAmmo
+bg=cyan</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>627</y><w>180</w><h>30</h></coordinates><panel_attributes>ShotGunAmmo
+bg=cyan</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>70</x><y>47</y><w>100</w><h>30</h></coordinates><panel_attributes>Portable Item
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>110</x><y>67</y><w>30</w><h>580</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;560</additional_attributes></element><element><id>UMLClass</id><coordinates><x>980</x><y>547</y><w>100</w><h>30</h></coordinates><panel_attributes>Sniper
+bg=cyan</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>980</x><y>657</y><w>120</w><h>30</h></coordinates><panel_attributes>SniperFiringAction
+bg=cyan</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>810</x><y>437</y><w>190</w><h>260</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;240;170;240</additional_attributes></element><element><id>Relation</id><coordinates><x>1020</x><y>567</y><w>80</w><h>110</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..1
+m2=1
+performs</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>390</x><y>507</y><w>80</w><h>140</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..4
+m2=1
+performs</panel_attributes><additional_attributes>10;120;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>750</x><y>417</y><w>90</w><h>30</h></coordinates><panel_attributes>AttackAction
+bg=orange
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>490</x><y>437</y><w>300</w><h>230</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>280;10;280;210;10;210</additional_attributes></element><element><id>UMLClass</id><coordinates><x>350</x><y>487</y><w>100</w><h>30</h></coordinates><panel_attributes>ShotGun
+bg=cyan
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>620</y><w>140</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1090</x><y>650</y><w>80</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>60;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>117</y><w>620</w><h>450</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;220;600;220;600;430</additional_attributes></element><element><id>UMLClass</id><coordinates><x>590</x><y>537</y><w>100</w><h>30</h></coordinates><panel_attributes>Player
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>780</x><y>120</y><w>30</w><h>310</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;290</additional_attributes></element><element><id>UMLClass</id><coordinates><x>740</x><y>97</y><w>100</w><h>30</h></coordinates><panel_attributes>Action
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>100</y><w>130</w><h>330</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>110;10;10;10;10;310</additional_attributes></element><element><id>UMLClass</id><coordinates><x>590</x><y>417</y><w>100</w><h>30</h></coordinates><panel_attributes>QuitAction
+bg=cyan</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>440</y><w>80</w><h>120</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+m2=2
+performs</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1190</x><y>437</y><w>80</w><h>30</h></coordinates><panel_attributes>World2
+bg=cyan</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1180</x><y>57</y><w>80</w><h>30</h></coordinates><panel_attributes>World
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1210</x><y>80</y><w>30</w><h>370</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;350</additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>490</y><w>170</w><h>90</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+m2=2
+holds</panel_attributes><additional_attributes>10;10;100;10;100;60;150;60</additional_attributes></element><element><id>Relation</id><coordinates><x>680</x><y>540</y><w>320</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+m2=2
+holds</panel_attributes><additional_attributes>300;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>50</y><w>1030</w><h>630</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;1010;10;1010;610</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1434</x><y>778</y><w>110</w><h>30</h></coordinates><panel_attributes>ChantingAction</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1664</x><y>778</y><w>150</w><h>30</h></coordinates><panel_attributes>ChantingBehaviour</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1534</x><y>780</y><w>150</w><h>30</h></coordinates><panel_attributes>lt=&lt;.</panel_attributes><additional_attributes>10;10;130;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1694</x><y>898</y><w>100</w><h>30</h></coordinates><panel_attributes>MamboMarie</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1730</x><y>798</y><w>40</w><h>120</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+m2=1</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1884</x><y>890</y><w>100</w><h>40</h></coordinates><panel_attributes>ZombieActor
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1790</x><y>900</y><w>110</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>90;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>2024</x><y>970</y><w>100</w><h>30</h></coordinates><panel_attributes>Tracker</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1730</x><y>918</y><w>310</w><h>100</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+m2=1</panel_attributes><additional_attributes>10;10;10;70;290;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>2030</x><y>128</y><w>100</w><h>30</h></coordinates><panel_attributes>GameMap
+
+bg=orange
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2064</x><y>150</y><w>30</w><h>840</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;820</additional_attributes></element><element><id>Relation</id><coordinates><x>830</x><y>100</y><w>680</w><h>700</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;650;10;660;680</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1690</x><y>588</y><w>110</w><h>50</h></coordinates><panel_attributes>&lt;&lt; Interface &gt;&gt;
+Behaviour
+
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2184</x><y>588</y><w>100</w><h>30</h></coordinates><panel_attributes>Vehicle</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2174</x><y>128</y><w>100</w><h>30</h></coordinates><panel_attributes>Item
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2324</x><y>128</y><w>100</w><h>40</h></coordinates><panel_attributes>MoveActorAction
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>2210</x><y>150</y><w>30</w><h>460</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;440</additional_attributes></element><element><id>Relation</id><coordinates><x>2280</x><y>158</y><w>170</w><h>470</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+m2=1
+performs</panel_attributes><additional_attributes>100;10;100;440;10;440</additional_attributes></element><element><id>Relation</id><coordinates><x>1730</x><y>630</y><w>30</w><h>160</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;140</additional_attributes></element><element><id>UMLNote</id><coordinates><x>2484</x><y>10</y><w>370</w><h>190</h></coordinates><panel_attributes>Author: Ahsan Zafar | HinSeng Leong
+
+Cyan Classes: Created by Ahsan
+White Classess: Created by HinSeng
+bg=cyan</panel_attributes><additional_attributes></additional_attributes></element></diagram>

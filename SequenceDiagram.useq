@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.2.4" icons="true" generate-combined-fragments="true">  
+  <object id="1" language="java" name="game.Player" project="Assignment1-2020-S1" 
+    file="/Assignment1-2020-S1/src/game/Player.java" binary="false" label="player" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="254" y="0"/>  
+  </object>  
+  <object id="2" language="java" name="game.ShotGun" project="Assignment1-2020-S1" 
+    file="/Assignment1-2020-S1/src/game/ShotGun.java" binary="false" label="shotGun" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="294" y="0"/>  
+  </object>  
+  <object id="3" language="java" name="game.ShotGunAction" project="Assignment1-2020-S1" 
+    file="/Assignment1-2020-S1/src/game/ShotGunAction.java" binary="false" label="shotGunAction" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="425" y="0"/>  
+  </object>  
+  <object id="4" language="java" name="game.ShotGunAmmo" project="Assignment1-2020-S1" 
+    file="/Assignment1-2020-S1/src/game/ShotGunAmmo.java" binary="false" label="shotGunAmmo" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="510" y="0"/>  
+  </object>  
+  <object id="5" language="java" name="game.Application" project="Assignment1-2020-S1" 
+    file="/Assignment1-2020-S1/src/game/Application.java" binary="false" label="application" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="538" y="0"/>  
+  </object>  
+  <object id="6" language="java" name="edu.monash.fit2099.engine.Action" project="Assignment1-2020-S1" 
+    file="/Assignment1-2020-S1/src/edu/monash/fit2099/engine/Action.java" binary="false" label="action" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="513" y="0"/>  
+  </object>  
+  <object id="7" language="java" name="edu.monash.fit2099.engine.GameMap" project="Assignment1-2020-S1" 
+    file="/Assignment1-2020-S1/src/edu/monash/fit2099/engine/GameMap.java" binary="false" label="gameMap" type="class" 
+    autoSize="false">    
+    <position height="99" width="127" x="577" y="0"/>  
+  </object>  
+  <object id="8" language="java" name="edu.monash.fit2099.engine.World" project="Assignment1-2020-S1" 
+    file="/Assignment1-2020-S1/src/edu/monash/fit2099/engine/World.java" binary="false" label="world" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="843" y="0"/>  
+  </object>
+</sequence-diagram>
